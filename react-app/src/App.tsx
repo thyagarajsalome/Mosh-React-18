@@ -1,11 +1,9 @@
-import ListGroup from "./components/ListGroup";
-
-let items = ["New York", "San Francisco", "Tokyo", "London"];
+import Like from "./components/Like";
 
 function App() {
   return (
     <div>
-      <ListGroup heading="Miami" items={items} onSelectItem={() => {}} />
+      <Like onClick={() => console.log("Clicked")} />
     </div>
   );
 }
